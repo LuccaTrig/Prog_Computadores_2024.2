@@ -1,0 +1,23 @@
+# Exemplo: Laço de repetição com while
+'''
+multiplicador = int(input('Digte um valor:'))
+
+multiplicando = 1
+
+print(f'Tabuada de {multiplicador}')
+
+while multiplicando <= 10:
+    print(f'{multiplicando} x {multiplicador} = {multiplicando * multiplicador}')
+    multiplicando += 1
+
+print('Fim da tabuada')
+'''
+
+soma = 0
+x    = 1
+
+while x <= 100:
+    soma += x
+    x +=1 
+
+print(f'A soma dos 100 primeiros números inteiros positivos é {soma}')
